@@ -13,7 +13,7 @@ This project implements an Artificial Neural Network (ANN) to forecast product s
    (e) Feature scaling using StandardScaler
 
 2. Model Architecture
-   (a) Input layer: 8 features
+   (a) Input layer: Number of features equal to X_train_scaled.shape[1]
    (b) Hidden layers: 3 dense layers (64, 32, 16 neurons) with ReLU activation
    (c) Dropout layers (0.2) for regularization
    (d) Output layer: 1 neuron for regression
